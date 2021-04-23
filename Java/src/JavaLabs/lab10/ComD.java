@@ -8,7 +8,7 @@ public class ComD implements ProInterface {
 
     private TreeSet<Drops> dropTree = new TreeSet<>();
 
-    public ComD(){
+    public void printMain(){
         System.out.println(" +++++++++++++++ Drops : \n");
 
         List<Drops> drop = new ArrayList(List.of(

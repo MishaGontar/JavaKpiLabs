@@ -1,7 +1,5 @@
 package JavaLabs.lab10;
 
-import java.util.Comparator;
-
 public class Drops extends Medicine {
     double ml;
 
@@ -14,7 +12,7 @@ public class Drops extends Medicine {
         super(name, price,MadeIn);
         this.ml = ml;
     }
-    Comparator<Medicine> comparatorByName = Comparator.comparing(Medicine::getName);
+
     @Override
     public boolean equals(Object obj) {
         return super.equals(obj);

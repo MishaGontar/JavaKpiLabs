@@ -4,7 +4,7 @@ import java.util.*;
 public class ComT implements ProInterface {
     private  TreeSet<Tablet> TabletTree = new TreeSet<>();
 
-    public ComT() {
+    public void printMain() {
        System.out.println(" +++++++++++++++ Tablets : \n");
 
         List<Tablet> tablets = new ArrayList(List.of(
