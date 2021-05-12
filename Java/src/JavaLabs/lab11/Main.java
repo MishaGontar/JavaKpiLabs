@@ -1,5 +1,8 @@
 package JavaLabs.lab11;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main  {
     public static void main(String[] args)  {
 
@@ -11,6 +14,6 @@ public class Main  {
     comd = ComT::new;
 
     comd.accept();
-
+    List<Medicine> list = new ArrayList<>(List.of());
     }
 }
